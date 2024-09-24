@@ -17,9 +17,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls import include
-from tasklist import views
+#from tasklist import views
 
 urlpatterns = [
-    path('', views.func_start, name='home'),
+    #path('', views.func_start, name='home'),
+    path('admin/', admin.site.urls),
+    path('train/', include('train.urls')),
+    path('mainpage/', include('mainpage.urls')),
     path('tasklist/', include('tasklist.urls')),
+    path('osnova/', include('osnova.urls')),
+    path('account/', include('account.urls'))
 ]
