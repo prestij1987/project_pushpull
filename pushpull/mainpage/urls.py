@@ -7,5 +7,5 @@ from .views import index
 urlpatterns = [
     path('', index, name='home'),
     #path('mystring/', func_start, name='mystring')
-    
+    path('mainpaige', index, name='main')
 ]

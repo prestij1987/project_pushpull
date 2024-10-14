@@ -28,6 +28,3 @@ urlpatterns = [
     path('osnova/', include('osnova.urls')),
     path('account/', include('account.urls'))
 ]
-
-
-]

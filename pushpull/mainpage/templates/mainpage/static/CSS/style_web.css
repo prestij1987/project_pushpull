@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+  }
+
+.logotip{
+    width: 10%;
+    height: 5%;
+    
+}
+.golova{
+    display: inline-block;
+    position: relative;
+}
+#zapros{
+    text-align: right;
+    position: absolute;
+    left: 750px;
+    height: 30px;
+    
+    margin-bottom: 0%;
+
+
+}    
+
+body{
+    background-color: tan;
+}
+
+#search{
+    position: relative;
+    
+}
+#list_gruz{
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+#menu{
+    display: inline-block; / *  Элементы будут располагаться в одну строку  * /
+}
