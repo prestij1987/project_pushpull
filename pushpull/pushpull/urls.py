@@ -24,7 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('train/', include('train.urls')),
     path('', include('mainpage.urls')),
-    path('osnova/', include('osnova.urls')),
+        path('osnova/', include('osnova.urls')),
     path('account/', include('account.urls')),
 
 ]
