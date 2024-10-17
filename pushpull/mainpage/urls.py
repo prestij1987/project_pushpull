@@ -11,5 +11,7 @@ urlpatterns = [
     #path('mystring/', func_start, name='mystring'),
   
     path('uslugi/', views.uslugi, name='uslugi'),
+    path('forma/', views.zapros, name='zapros'),
+
 
 ]

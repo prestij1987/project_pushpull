@@ -38,3 +38,8 @@ body{
 #menu{
     display: inline-block; / *  Элементы будут располагаться в одну строку  * /
 }
+
+.buttonclass{
+    border: 1px solid black;
+    border-radius: 5px;
+}
