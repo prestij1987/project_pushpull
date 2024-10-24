@@ -18,16 +18,18 @@ function serializeForm(formNode) {
   
     Array.from(elements)
       .forEach((element) => {
+
+        
         const { name, value } = element
         console.log({ name, value })
       })
   }
-
+  apt-get update
   function serializeForm(formNode) {
     const { elements } = formNode
     const data = Array.from(elements)
       .filter((item) => !!item.name)
-      .map((element) => {
+      .map(element) => {
         const { name, value } = element
   
         return { name, value }
